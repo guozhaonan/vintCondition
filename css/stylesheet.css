@@ -5,3 +5,22 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+img {
+  width: 10%;
+  height: 10%;
+}
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
