@@ -1,115 +1,22 @@
-/* Larger than mobile */
-@media (min-width: 400px) {}
-  html {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/backgroundmin.jpeg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  p {
-    font-family: 'Asap', sans-serif;
-    color: white;
-  }
-  img {
-    width: 50%;
-    height: 50%;
-    margin-left: auto;
-    margin-right: auto;
-
-  }
-  a:link {
-      color: white;
-  }
-
-  a:visited {
-      color: white;
-  }
-
-  a:hover {
-      color: white;
-  }
-
-  a:active {
-      color: white;
-  }
-
+body {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/backgroundimage.JPG) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-
-/* Larger than phablet */
-@media (min-width: 550px) {}
-
-/* Larger than tablet */
-@media (min-width: 750px) {
-  html {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/backgroundmin.jpeg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  p {
-    font-family: 'Asap', sans-serif;
-    color: white;
-  }
-  img {
-    width: 50%;
-    height: 50%;
-  }
-  a:link {
-      color: white;
-  }
-
-  a:visited {
-      color: white;
-  }
-
-  a:hover {
-      color: white;
-  }
-
-  a:active {
-      color: white;
-  }
-
+.words {
+  font-family: 'Lato', sans-serif;
+  color: white;
 }
-
+.tagline {
+  font-size: 110px;
 }
-
-/* Larger than desktop */
-@media (min-width: 1000px) {
-  html {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/backgroundmin.jpeg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  p {
-    font-family: 'Asap', sans-serif;
-    color: white;
-  }
-  img {
-    width: 50%;
-    height: 50%;
-  }
-  a:link {
-      color: white;
-  }
-
-  a:visited {
-      color: white;
-  }
-
-  a:hover {
-      color: white;
-  }
-
-  a:active {
-      color: white;
-  }
-
+.logo {
+  margin-top: 50px;
+  margin-bottom: 150px;
 }
-
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}
+.description {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
