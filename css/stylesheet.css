@@ -14,9 +14,26 @@ body {
 }
 .logo {
   margin-top: 50px;
-  margin-bottom: 150px;
+  margin-bottom: 110px;
 }
 .description {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+.btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+.btn-primary.outline {
+    border: 2px solid white;
+    color: white;
+}
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+    color: white;
+    border-color: white;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+    border-color: white;
+    color: white;
+    box-shadow: none;
 }
